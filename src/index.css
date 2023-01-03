@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.menu-icon {
+  position: absolute;
+  right: 10%;
+  font-size: 25px;
+  display: none;
+}
+
+.logoBlock,.close-icon{
+  display: none;
+}
+@media (max-width:780px) {
+  .card-detail img {
+    width: 250px;
+  }
+  
+}
+
+
+@media (max-width:600px) {
+  .card-detail img {
+    width: 200px;
+    margin-left: -40px;
+  }
+
+
+  .title {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .overview {
+    font-size: 10px;
+    width: 100%
+  }
+
+  .menu {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 1000px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: bisque;
+
+  }
+
+  .nav {
+    display: inline;
+    margin-top: 20px;
+
+  }
+
+  .logo {
+    display: inline;
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .tv-ex {
+    display: inline;
+  }
+
+  .search-input {
+    margin-top: 10px;
+  }
+
+  .explore {
+    margin-top: 10px;
+  }
+
+  .search {
+    margin-top: 20px;
+    width: 30px;
+    margin: a;
+  }
+
+  .logoBlock {
+    display: block;
+  }
+
+  #tvshow {
+    margin-top: 10px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .close-icon {
+    display: block;
+    position: absolute;
+    font-size: 20px;
+    right: 0;
+
+  }
+}
+
